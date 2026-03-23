@@ -1,5 +1,5 @@
-NAME = desafio
-SRC = desafio.c
+NAME = sum
+SRC = sum.c
 OBJ = $(SRC:.c=.o)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -std=c11

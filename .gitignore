@@ -1,3 +1,16 @@
-hello
-desafio
+sum
+
+# Compilados e Objetos
 *.o
+*.a
+*.out
+*.so
+
+# Executáveis (nomes comuns ou sem extensão)
+a.out
+*.exe
+
+# Lixo do Sistema/Editor
+.vscode/
+.DS_Store
+*.swp
