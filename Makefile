@@ -1,5 +1,5 @@
 NAME = math_ops
-SRC = main.c src/addition.c src/subtraction.c src/multiplication.c src/division.c src/division_remainder.c 
+SRC = main.c src/addition.c src/subtraction.c src/multiplication.c src/division.c src/division_remainder.c src/validation.c
 OBJ = $(SRC:.c=.o)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -std=c11

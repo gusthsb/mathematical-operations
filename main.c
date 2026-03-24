@@ -3,14 +3,14 @@
 
 int main(void)
 {
-    int a;
-    int b;
+    while (1) 
+    {
+        printf("\n--- NOVA OPERACAO (ou -24 para sair) ---\n");
+        int a = int_validation("Digite o primeiro numero: ");
+        int b = division_validation("Digite o segundo numero: ");
 
-    a = 10;
-    b = 10;
-    printf("Resultado da soma = %d\n", addition(a, b));
-    printf("Resultado da subtração = %d\n", subtraction(a, b));
-    printf("Resultado da multiplicação = %d\n", multiplication(a, b));
-    printf("Resultado da divisão = %d\n", division(a, b));
-    printf("Resultado da divisão (modulo) = %d\n", division_remainder(a, b));
+        printf("\nSoma: %d | Sub: %d | Mult: %d\n", addition(a, b), subtraction(a, b), multiplication(a, b));
+        printf("Div: %d   | Resto: %d\n", division(a, b), division_remainder(a, b));
+    }
+    return (0);
 }
